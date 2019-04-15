@@ -30,17 +30,16 @@ public class UserController {
     @RequestMapping("manage")
     public String manage(){
 
-        return "User/UserManage";
+        return "User/manage";
     }
     @RequestMapping("info")
     public String info(){
 
-        return "User/UserInfo";
+        return "User/info";
     }
     @RequestMapping("edit")
     public String edit(){
-
-        return "User/UserEdit";
+        return "User/edit";
     }
 
 }
